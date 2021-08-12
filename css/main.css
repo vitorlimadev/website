@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+  color: #f0f0f0;
+}
+
+body {
+  background-color: #1a1a1a;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 50rem;
+  padding: 2rem 2rem;
+  position: relative;
+  width: 100%;
+}
+
+select {
+  width: auto;
+}
+
+a {
+  color: aquamarine;
+}
+
+li {
+  line-height: 1.9;
+}
+
+button {
+  border: none;
+  background-color: aquamarine;
+  color: black;
+  font-weight: bold;
+}
+
+textarea,
+input {
+  width: 100%;
+  line-height: 1.9;
+  color: black;
+}
+
+textarea {
+  min-height: 20rem;
+}
+
+.horizontal-menu {
+  display: flex;
+  align-content: center;
+}
+
+.horizontal-menu-item:nth-child(even) {
+  margin-left: 1rem;
+}
