@@ -4,6 +4,10 @@
   color: #f0f0f0;
 }
 
+html {
+	zoom: 125%;
+}
+
 body {
   background-color: #1a1a1a;
 }
