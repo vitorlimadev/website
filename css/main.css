@@ -20,6 +20,11 @@ body {
   width: 100%;
 }
 
+.donation-address {
+	font-size: 0.8em;
+}
+
+
 select {
   width: auto;
 }
